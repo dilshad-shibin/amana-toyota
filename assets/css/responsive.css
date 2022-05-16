@@ -699,6 +699,9 @@
     .gallery-btn a{
         padding: 15px 50px;
     }
+    .pp-left{
+        display: none;
+    }
 }
 
 @media(max-width:320px){

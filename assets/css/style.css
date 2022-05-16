@@ -867,7 +867,7 @@ img {
     line-height: 60px;
 }
 
-/* .popupleft-content h4{
+.popupleft-content h4{
     color: #fff;
     font-weight: 400;
     font-size: 23px;
@@ -885,7 +885,7 @@ img {
 .popupleft-content h3 span{
     font-weight: 800;
     font-size: 30px;
-} */
+}
 
 /* #letter5 select, #letter5 input{
     color: #fff;
@@ -899,7 +899,7 @@ img {
     flex-direction: column;
     justify-content: center;
     padding: 20px 50px;
-    background-image: url(../img/popup-img.png);
+    /* background-image: url(../img/popup-img.png); */
     background-size: cover;
 }
 

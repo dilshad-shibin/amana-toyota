@@ -1548,15 +1548,16 @@ img {
     margin-left: 0px;
 }
 
-.contact-forming input{
+.contact-forming input,
+.contact-forming select{
     background: #fff;
-    height: 75px;
+    height: 55px;
     color: #000;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .contact-forming input[type="submit"]{
-    height: 75px;
+    height: 55px;
     background-color: #6c0000;
     text-transform: uppercase;
     font-size: 15px;
@@ -1569,9 +1570,9 @@ img {
 ****************************** */
 .footer-area{
     background-color: #2b2c2d;
-    padding-top: 185px;
+    padding-top: 270px;
     padding-bottom: 0;
-    margin-top: -142px;
+    margin-top: -242px;
     position: relative;
 }
 

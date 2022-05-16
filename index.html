@@ -1,0 +1,816 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title  -->
+    <title>Amana Toyota</title>
+
+    <!-- ***** All CSS Files ***** -->
+
+    <!-- Style css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Responsive css -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+
+</head>
+
+<body class="homepage-1">
+
+
+    <div class="main">
+        <!-- ***** Header Start ***** -->
+        <header class="navbar navbar-sticky navbar-expand-lg navbar-dark">
+            <div class="container position-relative">
+                <a class="navbar-brand" href="index.html">
+                    <img class="navbar-brand-regular" src="assets/img/logo/logo.png" alt="Amana Toyota logo">
+                    <img class="navbar-brand-sticky" src="assets/img/logo/logo.png" alt="Amana Toyota logo">
+                </a>
+
+                <div class="navbar-inner d-flex align-items-center">
+                    <div class="top-btn">
+                        <a href="#" data-toggle="modal" data-target="#exampleModal0">Book Now</a>
+                    </div>
+                    <div class="top-call d-flex flex-column">
+                        <span>Call Now</span>
+                        <a href="tel:+910123456789">+91 0123456789</a>
+                        <a href="tel:+910123456789">+91 1122334569</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- ***** Welcome Area Start ***** -->
+        <section class="section welcome-area d-flex">
+            <div class="banner-img">
+                <div class="banner-text">
+                    <h3>Lorem Ipsum is</h3>
+                    <h2>Lorem Ipsum is simply dummy text</h2>
+                    
+                </div>
+                <div class="playbtn-banner">
+                    <a href="https://youtu.be/Huoyecc_ggY" data-fancybox="images"> </a>
+                </div>
+            </div>
+            <div class="banner-form">
+                <div class="form-area">
+                    <div class="welcome-form">
+                        <form name="form1" method="post" action="email.php">
+                            <div class="form-title">
+                                <h2>Know More</h2>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" placeholder="Name" class="form-control" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <input placeholder="Phone" class="form-control" name="phone" required type="tel"
+                                    pattern="[0-9]{10}" maxlength="10"
+                                    oninvalid="this.setCustomValidity('Please Enter 10 Digit Number')"
+                                    onchange="this.setCustomValidity('')">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="Email" class="form-control" name="email"
+                                    required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="text" placeholder="Place" class="form-control" name="place" required>
+                            </div>
+                            
+
+                            <div class="form-group-row d-flex justify-content-between">
+                                <div class="form-group flex-48">
+                                    <select name="district" id="" class="form-control">
+                                        <option value="">District</option>
+                                        <option value="">Palakkad</option>
+                                        <option value="">Malappuram</option>
+                                        <option value="">Ernakulam</option>
+                                        <option value="">Calicut</option>
+                                    </select>
+                                </div>
+                                <div class="form-group flex-48">
+                                    <select name="model" id="" class="form-control">
+                                        <option value="">Model</option>
+                                        <option value="urban-cruiser">Urban Cruiser</option>
+                                        <option value="crysta">Crysta</option>
+                                        <option value="glanza">Glanza</option>
+                                        <option value="hilux">Hilux</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group form-group-btn">
+                                <input type="hidden" name="esource" value="<?php echo $source;?>">
+                                <input type="hidden" name="emedium" value="<?php echo $medium;?>">
+                                <input type="submit" value="submit" class="form-control" name="submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ***** Product Start ***** -->
+        <section class="product-area section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="pro-head">
+                            <h2>Product Range</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center mb-4">
+                        <div class="pro-box">
+                            <div class="img"><img src="assets/img/products/1.jpg" alt=""></div>
+                            <div class="text-inner">
+                                <h4>Glanza</h4>
+                                <div class="btns">
+                                    <div><a href="#" data-toggle="modal" data-target="#exampleModal0" class="btn btn-block first-btn">Check-On-Road</a></div>
+                                    <div><a href="#" data-toggle="modal" data-target="#exampleModal0" class="btn btn-block second-btn">Check EMI</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center mb-4">
+                        <div class="pro-box">
+                            <div class="img"><img src="assets/img/products/2.jpg" alt=""></div>
+                            <div class="text-inner">
+                                <h4>Urban Cruiser</h4>
+                                <div class="btns">
+                                    <div><a href="#" data-toggle="modal" data-target="#exampleModal0" class="btn btn-block first-btn">Check-On-Road</a></div>
+                                    <div><a href="#" data-toggle="modal" data-target="#exampleModal0" class="btn btn-block second-btn">Check EMI</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center mb-4">
+                        <div class="pro-box">
+                            <div class="img"><img src="assets/img/products/3.jpg" alt=""></div>
+                            <div class="text-inner">
+                                <h4>Innova Crysta</h4>
+                                <div class="btns">
+                                    <div><a href="#" data-toggle="modal" data-target="#exampleModal0" class="btn btn-block first-btn">Check-On-Road</a></div>
+                                    <div><a href="#" data-toggle="modal" data-target="#exampleModal0" class="btn btn-block second-btn">Check EMI</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center mb-4">
+                        <div class="pro-box">
+                            <div class="img"><img src="assets/img/products/4.jpg" alt=""></div>
+                            <div class="text-inner">
+                                <h4>Hilux</h4>
+                                <div class="btns">
+                                    <div><a href="#" data-toggle="modal" data-target="#exampleModal0" class="btn btn-block first-btn">Check-On-Road</a></div>
+                                    <div><a href="#" data-toggle="modal" data-target="#exampleModal0" class="btn btn-block second-btn">Check EMI</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center mb-4">
+                        <div class="pro-box">
+                            <div class="img"><img src="assets/img/products/5.jpg" alt=""></div>
+                            <div class="text-inner">
+                                <h4>Fortuner</h4>
+                                <div class="btns">
+                                    <div><a href="#" data-toggle="modal" data-target="#exampleModal0" class="btn btn-block first-btn">Check-On-Road</a></div>
+                                    <div><a href="#" data-toggle="modal" data-target="#exampleModal0" class="btn btn-block second-btn">Check EMI</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center mb-4">
+                        <div class="pro-box">
+                            <div class="img"><img src="assets/img/products/6.jpg" alt=""></div>
+                            <div class="text-inner">
+                                <h4>Legender</h4>
+                                <div class="btns">
+                                    <div><a href="#" data-toggle="modal" data-target="#exampleModal0" class="btn btn-block first-btn">Check-On-Road</a></div>
+                                    <div><a href="#" data-toggle="modal" data-target="#exampleModal0" class="btn btn-block second-btn">Check EMI</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center mb-4">
+                        <div class="pro-box">
+                            <div class="img"><img src="assets/img/products/7.jpg" alt=""></div>
+                            <div class="text-inner">
+                                <h4>Camry</h4>
+                                <div class="btns">
+                                    <div><a href="#" data-toggle="modal" data-target="#exampleModal0" class="btn btn-block first-btn">Check-On-Road</a></div>
+                                    <div><a href="#" data-toggle="modal" data-target="#exampleModal0" class="btn btn-block second-btn">Check EMI</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center mb-4">
+                        <div class="pro-box">
+                            <div class="img"><img src="assets/img/products/8.jpg" alt=""></div>
+                            <div class="text-inner">
+                                <h4>Vellfire</h4>
+                                <div class="btns">
+                                    <div><a href="#" data-toggle="modal" data-target="#exampleModal0" class="btn btn-block first-btn">Check-On-Road</a></div>
+                                    <div><a href="#" data-toggle="modal" data-target="#exampleModal0" class="btn btn-block second-btn">Check EMI</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center">
+                        <div class="product-btn">
+                            <a href="#" data-toggle="modal" data-target="#exampleModal0" class="">More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ***** Test Drive Area ***** -->
+        <section class="test-drive section">
+             <div class="container">
+                 <div class="row">
+                     <div class="col-lg-8 text-center">
+                         <div class="inner">
+                            <div class="test">
+                                <h1>Lorem Ipsum is simply dummy text</h1>
+                            </div>
+                            <div class="img d-none d-block-991">
+                                <img src="assets/img/vellfire.png" alt="">
+                            </div>
+                            <div class="test-btn">
+                                <a href="#" data-toggle="modal" data-target="#exampleModal0">Book Your Test Drive</a>
+                            </div>
+                         </div>
+                     </div>
+                     <div class="col-lg-4">
+                         <div class="form-drive">
+                            <form name="form1" method="post" action="email.php">
+                                <div class="form-title">
+                                    <h2>Just fill in the details below and get your EMI estimate right now</h2>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" placeholder="Name" class="form-control" name="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <input placeholder="Phone" class="form-control" name="phone" required type="tel"
+                                        pattern="[0-9]{10}" maxlength="10"
+                                        oninvalid="this.setCustomValidity('Please Enter 10 Digit Number')"
+                                        onchange="this.setCustomValidity('')">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" placeholder="Email" class="form-control" name="email"
+                                        required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <input type="text" placeholder="Place" class="form-control" name="place" required>
+                                </div>
+                                
+    
+                                <div class="form-group-row d-flex justify-content-between">
+                                    <div class="form-group flex-48">
+                                        <select name="district" id="" class="form-control">
+                                            <option value="">District</option>
+                                            <option value="">Palakkad</option>
+                                            <option value="">Malappuram</option>
+                                            <option value="">Ernakulam</option>
+                                            <option value="">Calicut</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group flex-48">
+                                        <select name="model" id="" class="form-control">
+                                            <option value="">Model</option>
+                                            <option value="urban-cruiser">Urban Cruiser</option>
+                                            <option value="crysta">Crysta</option>
+                                            <option value="glanza">Glanza</option>
+                                            <option value="hilux">Hilux</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group form-group-btn">
+                                    <input type="hidden" name="esource" value="<?php echo $source;?>">
+                                    <input type="hidden" name="emedium" value="<?php echo $medium;?>">
+                                    <input type="submit" value="submit" class="form-control" name="submit">
+                                </div>
+                            </form>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+        </section>
+
+        <!-- ***** About Area ***** -->
+        <section class="about-area">
+              <div class="container-fluid">
+                  <div class="row align-items-center">
+                      <div class="col-lg-4 p-0">
+                          <div class="img-area">
+                              <!-- <img src="assets/img/about-bg.jpg" alt=""> -->
+                          </div>
+                      </div>
+                      <div class="col-lg-8">
+                          <div class="about-test">
+                              <span>About</span>
+                              <h3>Amana Toyota</h3>
+                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                              <div class="count-area d-flex justify-content-between align-items-center">
+                                  <div class="count-box">
+                                      <div class="counter">1000+</div>
+                                      <span>Happy Customers</span>
+                                  </div>
+                                  <div class="count-box">
+                                    <div class="counter">24/7</div>
+                                    <span>Customers Support</span>
+                                  </div>
+                                  <div class="count-box">
+                                    <div class="counter">199+</div>
+                                    <span>Awards won</span>
+                                  </div>
+                              </div>
+                              <div class="btn-box">
+                                  <a href="#" data-toggle="modal" data-target="#exampleModal0">More</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+        </section>
+
+        <!-- ***** Delivery Slider Area ***** -->
+        <section class="delivery-slider-area section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="head">
+                            <h1>Lorem Ipsum is simply <span>dummy text</span></h1>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="delivery-slider owl-carousel">
+                            <div class="item">
+                                <img src="assets/img/delivery/1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/img/delivery/2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/img/delivery/3.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/img/delivery/1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/img/delivery/2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/img/delivery/3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ***** Service Area ***** -->
+        <section class="service-area section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="head">
+                            <h2>Service Highlights</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="service-img">
+                            <img src="assets/img/services/1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="service-img">
+                            <img src="assets/img/services/2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 text-center">
+                        <div class="service-btn"><a href="#" data-toggle="modal" data-target="#exampleModal0">Book Your Service</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ***** Testimonials Area ***** -->
+        <section class="testi-area section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="test-inner">
+                            <h2>Happy Customers</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="testi-slider owl-carousel">
+                                    <div class="item">
+                                        <div class="test-inner">
+                                            <img src="assets/img/testi/1.jpg" alt="">
+                                            <div class="center-btn">
+                                                <a href="https://youtu.be/Huoyecc_ggY" data-fancybox="images"><i class="fa fa-play"></i></a>
+                                            </div>
+                                            <div class="details">
+                                                <div class="name-details">
+                                                    <h3>Vignash</h3>
+                                                    <span>Calicut</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="test-inner">
+                                            <img src="assets/img/testi/2.jpg" alt="">
+                                            <div class="center-btn">
+                                                <a href="https://youtu.be/Huoyecc_ggY" data-fancybox="images"><i class="fa fa-play"></i></a>
+                                            </div>
+                                            <div class="details">
+                                                <div class="name-details">
+                                                    <h3>Aleena</h3>
+                                                    <span>Calicut</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="test-inner">
+                                            <img src="assets/img/testi/1.jpg" alt="">
+                                            <div class="center-btn">
+                                                <a href="https://youtu.be/Huoyecc_ggY" data-fancybox="images"><i class="fa fa-play"></i></a>
+                                            </div>
+                                            <div class="details">
+                                                <div class="name-details">
+                                                    <h3>Vignash</h3>
+                                                    <span>Calicut</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="test-inner">
+                                            <img src="assets/img/testi/2.jpg" alt="">
+                                            <div class="center-btn">
+                                                <a href="https://youtu.be/Huoyecc_ggY" data-fancybox="images"><i class="fa fa-play"></i></a>
+                                            </div>
+                                            <div class="details">
+                                                <div class="name-details">
+                                                    <h3>Aleena</h3>
+                                                    <span>Calicut</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+        <!-- ***** Google Reviews Area ***** -->
+        <section class="google-review section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="head">
+                            <h2>Google Reviews</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="review-img">
+                            <img src="assets/img/reviews/1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="review-img">
+                            <img src="assets/img/reviews/2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="review-img">
+                            <img src="assets/img/reviews/3.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ***** Gallery Area ***** -->
+        <section class="gallery-area section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="head">
+                            <h2>Gallery</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="gallery-img">
+                            <img src="assets/img/gallery/1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="gallery-img">
+                            <img src="assets/img/gallery/2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="gallery-img">
+                            <img src="assets/img/gallery/3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="gallery-img">
+                            <img src="assets/img/gallery/4.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 text-center">
+                        <div class="gallery-btn"><a href="#" data-toggle="modal" data-target="#exampleModal0">Book Now</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ***** Locations Area ***** -->
+        <section class="location-area section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="head">
+                            <h2>Locations</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="loc-box">
+                            <p>VPK Motors Pvt. Ltd.,
+                                NH 17, Cheruvannur,
+                                Kolathara PO,
+                                Calicut (Kozhikode)-673655</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="loc-box">
+                            <p>7/134E, PO: Kolathara,
+                                Cheruvannur,
+                                Calicut (Kozhikode)-673655</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="loc-box">
+                            <p>VPK Motors Pvt. Ltd.,
+                                1/118 A&B, Chungham,
+                                West Hill
+                                Calicut (Kozhikode)-673005</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="loc-box border-right-none border-block-991">
+                            <p>VPK Motors Pvt. Ltd.,
+                                NH 17, Karimbanapalam
+                                Vadakara-673101</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="loc-box">
+                            <p>VPK Motors Pvt. Ltd.
+                                Thottada PO,
+                                Kannur-670007</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="loc-box">
+                            <p>VPK Motors Pvt. Ltd.,
+                                NH 213, PO. Ramapuram,
+                                Panangangara,
+                                Mallapuram-679350</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="loc-box">
+                            <p>XV/233-A Tanur Road
+                                Moochikkal, Tirur,
+                                Mallapuram-676307</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="loc-box border-right-none border-block-991">
+                            <p>VPK Motors Pvt. Ltd.,
+                                7/749, NH 966, Poriyani, 
+                                Mundur PO, Palakkad-678592</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ***** Contact Area ***** -->
+        <section class="contact-area section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 bg-red">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="contact-test">
+                                    <h2>Get in touch</h2>
+                                    <p>Lorem Ipsum is simply 
+                                        dummy text of the printing
+                                        and typesetting industry.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="row contact-form">
+                                    <form action="" name="" class="contact-forming">
+                                        <div class="col-12">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" name="name" placeholder="Name" required>
+                                            </div>
+                                        </div>
+                                        <div class="row second-row">
+                                            <div class="col-lg-5">
+                                                <div class="form-group">
+                                                    <input placeholder="Phone" class="form-control" name="phone" required type="tel"
+                                                    pattern="[0-9]{10}" maxlength="10"
+                                                    oninvalid="this.setCustomValidity('Please Enter 10 Digit Number')"
+                                                    onchange="this.setCustomValidity('')">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control" name="email" placeholder="Email" required> 
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-2 pl-0">
+                                                <div class="form-group">
+                                                    <input type="hidden" name="esource" value="<?php echo $source;?>">
+                                                    <input type="hidden" name="emedium" value="<?php echo $medium;?>">
+                                                    <input type="submit" value="submit" class="form-control" name="submit">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- ***** Footer Area ***** -->
+         <footer class="footer-area section">
+             <div class="container">
+                 <div class="row">
+                     <div class="col-12">
+                         <div class="logo">
+                             <img src="assets/img/logo/footer-logo.png" alt="">
+                         </div>
+                     </div>
+                     <div class="col-12">
+                         <div class="copy-right">
+                             <p>Copyright © 2022 TKM. All Rights Reserved. Designed by
+                                <a href="#http://www.theviralmafia.com/?utm_source=amanatoyota" target="_blank"> 
+                                    <img src="assets/img/logo/viralmafia.svg" alt="viralmafia calicut">
+                                </a>
+                            </p>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </footer>
+
+        <!-- ***** Popup Area Start ***** -->
+        <div class="appoint-model">
+            <div class="container">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="modal fade order-model" id="exampleModal0" tabindex="-1" role="dialog"
+                            aria-hidden="true">
+                            <div class="modal-dialog log-sign modal-mookambika" role="document">
+                                <div class="col-lg-6 p-0 text-center pp-left">
+                                    <div class="popupleft-content">
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 p-0">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <a href="#" class="download-close" data-dismiss="modal"
+                                                aria-label="Close"><span>X</span></a>
+                                        </div>
+                                        <div id="letter5">
+                                            <div class="letter_inner">
+                                                <div class="heading color-b">
+                                                    <h2>Get in touch</h2>
+                                                </div>
+                                                <div class="model-project-details">
+                                                    <div class="heading color-b">
+                                                        <div class="tab-content">
+                                                            <div role="tabpanel" class="tab-pane active tab-log"
+                                                                id="profile2">
+                                                                <form name="form3" method="post" action="email.php">
+                                                                    <div class="row">
+                                                                        <div class="col-12 col-md-12">
+                                                                            <div class="form-group">
+                                                                                <input type="text" class="form-control"
+                                                                                    placeholder="Name" name="name" required>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-12 col-md-12">
+                                                                            <div class="form-group">
+                                                                                <input class="form-control"
+                                                                                    placeholder="Phone" name="phone"
+                                                                                    required type="tel" pattern="[0-9]{10}"
+                                                                                    maxlength="10"
+                                                                                    oninvalid="this.setCustomValidity('Please Enter 10 Digit Number')"
+                                                                                    onchange="this.setCustomValidity('')">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-12 col-md-12">
+                                                                            <div class="form-group">
+                                                                                <input type="email" class="form-control"
+                                                                                    placeholder="Email" name="email"
+                                                                                    required>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-12 col-md-12">
+                                                                            <div class="form-group">
+                                                                                <input type="hidden" name="esource"
+                                                                                    value="<?php echo $source;?>">
+                                                                                <input type="hidden" name="emedium"
+                                                                                    value="<?php echo $medium;?>">
+                                                                                <input type="submit" class="form-control"
+                                                                                    value="Submit" name="submit">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Side Bottom Fixed Buttons -->
+        <div class="cont_link_box">
+
+            <a id="" href="tel:+919778412247" title="Call Now" class="callnow_inte" target="">
+                <i class="fas fa-phone-alt" aria-hidden="true"></i>
+            </a>
+            <a id="" href="https://wa.me/+919778412247" title="Whatsapp Now" class="whatsapp_inte" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+        <div class="enq-side">
+            <a href="#" class="vertical_btn" data-toggle="modal" data-target="#exampleModal0">Book Now</a>
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- ***** All jQuery Plugins ***** -->
+
+    <!-- jQuery(necessary for all JavaScript plugins) -->
+    <script src="assets/js/jquery/jquery-3.3.1.min.js"></script>
+
+    <!-- Bootstrap js -->
+    <script src="assets/js/bootstrap/popper.min.js"></script>
+    <script src="assets/js/bootstrap/bootstrap.min.js"></script>
+
+    <!-- Plugins js -->
+    <script src="assets/js/plugins/plugins.min.js"></script>
+
+    <!-- Active js -->
+    <script src="assets/js/active.js"></script>
+
+</body>
+
+</html>

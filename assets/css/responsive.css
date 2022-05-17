@@ -428,6 +428,9 @@
     .pl-0{
         padding-left: 15px !important;
     }
+    .welcome-area{
+        height: auto;
+    }
 }
 
 @media(max-width: 767px){
@@ -443,17 +446,17 @@
     .banner-img{
         flex: 0 0 100%;
     }
-    .banner-img .banner-text{
+    .banner-text{
         top: 23%;
         left: 50%;
     }
-    .banner-img .banner-text h2 {
+    .banner-text h2 {
         color: #fff;
         font-size: 36px;
     }
     .playbtn-banner a{
         left: 50%;
-        top: 46%;
+        top: 54%;
     }
     .welcome-form{
         max-width: inherit;
@@ -466,7 +469,7 @@
         z-index: 12;
         width: 90%;
         margin: 0 auto;
-        margin-top: -80px;
+        margin-top: -40px;
     }
     .product-area{
         margin-top: 430px;
@@ -501,6 +504,15 @@
     }
     .footer-area{
         padding-top: 512px;
+    }
+    .item-banner{
+        height: 450px;
+    }
+    .welcome-area{
+        background-color: unset;
+    }
+    .banner-form{
+        background-color: #e40000;
     }
 }
 
@@ -559,10 +571,10 @@
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
-    .banner-img .banner-text h2{
+    .banner-text h2{
         font-size: 25px;
     }
-    .banner-img .banner-text h3{
+    .banner-text h3{
         font-size: 20px;
     }
     .playbtn-banner a{
@@ -578,7 +590,7 @@
         padding: 20px 25px;
     }
     .product-area{
-        padding-top: 165px;
+        padding-top: 200px;
         margin-top: 300px;
     }
     .test-drive .inner .test h1{
@@ -701,6 +713,9 @@
     }
     .pp-left{
         display: none;
+    }
+    .item-banner {
+        height: 350px;
     }
 }
 
